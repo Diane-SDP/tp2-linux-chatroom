@@ -1,0 +1,5 @@
+services:
+  calc:
+    build: .
+    ports:
+      - "7777:13337"
